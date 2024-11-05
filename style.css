@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+.bg{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 105%;
+}
