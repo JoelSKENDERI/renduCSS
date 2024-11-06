@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4fa3440231.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Présentation Arknights</title>
     <link rel="stylesheet" href="style.css">
-    <img src="6ab6bd376489b488e75d46073b687a5c.jpg" id="logoark" >
 </head>
+<header>
+    <marquee>🩺 Bienvenue dans Arknights : tu viens pour le tower defense, tu restes pour la dépression. 🩺
+
+        Imagine : tu lances le jeu pour une petite stratégie tranquille… Grave erreur. Te voilà plongé dans une dystopie où tout le monde souffre de maladies incurables, et toi, amnésique, coincé dans un labo avec des agents surqualifiés et traumatisés. 🧪
+        
+        Le gacha ? Prépare-toi à sacrifier toutes tes primes pour espérer une opératrice 6★… pour finir avec trois Beagles et un Spot qui prend la poussière. 🎰💀
+        
+        Et l’histoire ? Chaque perso a un passé encore plus sombre que le précédent, et toi tu enchaînes les niveaux en te demandant si tu joues à un jeu ou si tu fais un stage intensif de mélancolie.</marquee>
+    <h1>Bienvenue à Terra</h1>
+    <img src="640_1_9d429094-fd34-43a9-ae31-35fa3f674c01_1200x1200.webp" id="logoark" >
+</header>
 <body>
  <div class="cadre">
-    <div>
+    <div id="histoire">
         <h2>L'Histoire</h2>
         <p>Bienvenue sur Terra, un monde où les habitants sont confrontés à des catastrophes naturelles très graves, causant des difficultés politiques et sociales</p>
-        <img src="Reunion_Leaders.webp">
+        <img src="Reunion_Leaders.webp" id="reunionlead">
+        <p>Arknights est un jeu de stratégie mobile de type tower defense, où le joueur incarne un docteur amnésique qui guide l'organisation Rhodes Island dans un monde dystopique ravagé par une épidémie. Le but est de recruter et déployer divers "Opérateurs," chacun ayant des compétences uniques, pour défendre des points stratégiques face à des ennemis variés. La direction artistique soignée et l’histoire captivante, mêlant politique et mystère</p>
     </div>
-    <div>
+    <div id="personnages">
         <h2>Les Personnages</h2>
         <p>Terra est peuplé de personnages humanoïdes ayant des attributs d'animaux ou de créatures mythologique.</p>
         <div class="photopersonnage">
             <a href="https://arknights.wiki.gg/wiki/Amiya" target="_blank">
-                <img src="Amiya_icon.webp">
-                <figcaption>Amiya jeune leadeuse et assistante du doctor</figcaption>
+                <img src="Amiya_icon.webp" class="iconperso">
+                <figcaption class="figcap">Amiya jeune leadeuse et assistante du doctor</figcaption>
                 </a>
             <a href="https://arknights.wiki.gg/wiki/Ch%27en" target="_blank">
-                <img src="Ch'en_icon.webp">
-                <figcaption>Ch'en chef de la police de Lungmen elle travaille en coopération avec Rhodes Island</figcaption>
+                <img src="Ch'en_icon.webp" class="iconperso">
+                <figcaption class="figcap">Ch'en chef de la police de Lungmen elle travaille en coopération avec Rhodes Island</figcaption>
                 </a>
             <a href="https://arknights.fandom.com/wiki/Kal%27tsit" target="_blank">
-                <img src="images kaltsit.jpg">
-                <figcaption>Kal'tsit est la directrice en chef du secteur médical de Rhodes Island</figcaption>
+                <img src="Kal'tsit_icon.webp" class="iconperso">
+                <figcaption class="figcap">Kal'tsit est la directrice en chef du secteur médical de Rhodes Island</figcaption>
                 </a>
+    </div>
         </div>
-    <div>
+<div id="universe">
         <h2>L'univers</h2>
-        <p>L'univers de arknights</p>
+        <p>L'univers de arknights est très vaste, des groupes militaires et paramilitaires qui se font la guerre au déités annonciatrices d'apocalypse</p>
+        <iframe src="https://www.youtube.com/embed/sZ1OD0cL6Qw?si=Tn-3ZhloH1zvwQoP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+        <button onclick ="window.location.href = 'https://arknights.fandom.com/wiki/Story/Main_Theme';" id="boutonhist">Découvrez l'histoire</button>
+        <button onclick ="window.location.href = 'indexp2.html'" id="boutonhist"> Accéder à la gallerie d'images</button>
     </div>    
     </div>
  </div>
+ <footer>
+    <div class="social-links">
+        <a href="https://www.instagram.com/arknights_messenger_official/" class="fa-brands fa-instagram"></a>
+        <a href="https://x.com/ArknightsEN?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa-brands fa-square-twitter"></a>
+       </div> 
+ </footer>
 </body>
 </html>
